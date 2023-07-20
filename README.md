@@ -1,10 +1,10 @@
 # Parametric Analysis of Temporal Structure (PATS)
 
-This project includes a MATLAB implementation of PATS, and the scripts for simulations, analyses, and plotting Figures reported in the article titled “Extracting evidence for neural temporal structure from behavioral measurements.” To ensure the reproducibility of the simulation results, some scripts are provided with a random seed used for simulations reported in the article. You will need MATLAB R2016b or later with Optimization Toolbox to run the scripts.
+This project includes a MATLAB implementation of PATS, and the scripts for simulations, analyses, and plotting Figures reported in the article titled "Procedure for extracting temporal structure embedded within psychophysical data." To ensure the reproducibility of the simulation results, some scripts are provided with a random seed used for simulations reported in the article. You will need MATLAB R2016b or later with Optimization Toolbox to run the scripts.
 
 For a quick tutorial on how to use PATS with your own data, please refer to the tutorial scripts.
 
-Few scripts rely on bayesFactor Toolbox (https://klabhub.github.io/bayesFactor/, see the “lib/bayesFactor-2.2.0/LICENSE” file for license information) which requires Statistics and Machine Learning Toolbox.
+A few scripts rely on bayesFactor Toolbox (https://klabhub.github.io/bayesFactor/, see the "lib/bayesFactor-2.2.0/LICENSE" file for license information) which requires Statistics and Machine Learning Toolbox.
 
 ## Directories and Files
 * __data-fitted/ directory__ – stores simulation results and analyzed data.
